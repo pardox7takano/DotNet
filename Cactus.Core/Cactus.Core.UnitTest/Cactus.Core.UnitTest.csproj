@@ -53,6 +53,12 @@
     <Compile Include="Extensions\DateTimeExtensionUnitTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cactus.Core\Cactus.Core.csproj">
+      <Project>{88653d70-46af-48f4-849f-942030fb8848}</Project>
+      <Name>Cactus.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
