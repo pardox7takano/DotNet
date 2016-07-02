@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript" src="@Url.Content(@"/scripts/jquery-3.0.0.js")"></script>
+    <script type="text/javascript" src="@Url.Content(@"/scripts/jquery.validate.js")"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('form').validate();
+        });
+    </script>
+</head>
+<body>
+    <form id="myform" method="POST" action="./index.html">
+        <input type="text" class="required" name="comment" />
+        <input type="submit" />
+    </form>
+</body>
+</html>
