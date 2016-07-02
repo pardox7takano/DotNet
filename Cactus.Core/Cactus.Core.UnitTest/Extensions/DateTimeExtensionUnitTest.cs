@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-namespace Cactus.Core.UnitTest
+namespace Cactus.Core.UnitTest.Extensions
 {
     /// <summary>
     /// <see cref="DateTimeExtension"/>型のテストクラス

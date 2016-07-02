@@ -11,7 +11,7 @@ namespace Cactus
     /// </summary>
     public static class DateTimeExtension
     {
-        #region ■ToBusinessStartDate
+        #region ■ToBusinessStartDate(DateTime)
         /// <summary>
         /// 任意の日付の、年度開始日を取得します。
         /// </summary>
